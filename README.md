@@ -5,14 +5,13 @@ Esse é um projeto básico feito na linguagem de Programação C que permite o g
 
 
 #include <stdio.h>
-
-//informções Solicitadas ao usuario.
 int main(){
     int idade, Matricula;
     float altura;
     char nome[50];
 
 //codigo que vai permitir a entrada e saida de dados(informações) do usuario e adicionarinformações.
+
     printf("Digite sua idade: \n");
     scanf("%d", &idade);
 
@@ -31,5 +30,4 @@ int main(){
     printf("idade: %d - altura: %f", idade, altura);
 
     return 0;
-    
- }
+}
